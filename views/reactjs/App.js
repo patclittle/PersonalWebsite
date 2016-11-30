@@ -1,7 +1,7 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-var MuiThemeProvider = require('material-ui/styles/MuiThemeProvider');
-var MyAwesomeReactComponent = require('./MyAwesomeReactComponent');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import MyAwesomeReactComponent from './MyAwesomeReactComponent';
 
 const App = () => (
   <MuiThemeProvider>
