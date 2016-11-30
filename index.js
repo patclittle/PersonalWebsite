@@ -14,8 +14,8 @@ app.get('/', function(request, response) {
 });
 
 app.get('/reactjs/App.js', function(req, res){
-res.sendFile(__dirname + '/views/reactjs/App.js'); 
-}
+    res.sendFile(__dirname + '/views/reactjs/App.js'); 
+});
 
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
