@@ -176,3 +176,13 @@ footer {
   background: linear-gradient(green, blue); /* Standard syntax */
 }
 
+.timeline-card {
+  min-height:0px;
+  border-radius:45px;
+}
+
+.center-this {
+  margin-left:auto;
+  margin-right:auto;
+}
+
